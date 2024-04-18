@@ -1,0 +1,447 @@
+@media screen and (max-width:1230px){
+.main{
+    font-size:1rem;
+}
+.main .logo{
+    left:92px;
+}
+}
+@media screen and (max-width:1120px){
+    body{
+        margin-top: 4rem;
+    }
+
+    .download{
+padding-left: 4rem;
+    }
+    .main .first{
+        left:-115px;
+    }
+    .main .first span{
+font-size: 86px;
+line-height:77px;
+    }
+    nav{
+        display: none;
+    }
+            .component1 div:nth-child(even){
+                display:none;
+            }
+            .component1 div:first-child{
+                width:100%;
+            }
+            .sectionHeader .slide{
+                display: none;
+            }
+            nav ul{
+        display: none;
+            }
+            .mobileNav .iconChange{
+                font-size: 6rem;
+            }
+            .internalMobile{
+                display: grid;
+            }
+            .mobileNav{
+                display: block;
+                position:fixed;
+                color:#fff;
+                height:80px;
+    
+            }
+        .mobileNav ul{
+            height:100%;
+            width:100%;
+        }
+        .mobileNav ul li{
+            font-size:4rem !important;
+        }
+        .internalMobile .mobileFirst{
+            padding-left: 20vw;
+            text-align: center;
+            }
+            .mobileMain{
+                display: flex;
+                flex-direction: column;
+                display: block;
+                
+            }
+            .mobileFirst section i{
+                font-size: 2rem !important;
+                color: #c30c96;
+                padding-bottom:40px;
+                }
+                .internalMobile .section i{
+                font-size: 6rem;
+                color: #c30c96;
+                }
+    }
+    
+@media screen and (max-width:992px){
+    .sales{
+        padding:0px 5rem;
+    }
+.sales div{
+    width:40rem;
+}
+.main .logo img{
+    width: 700px;
+}
+.main .first{
+    left:-354px;
+}
+.main .first span{
+    font-size: 75px !important;
+    line-height:75px !important;
+    position:relative;
+    left:100px;
+        }
+        
+        .thirdSection .businessElement .business,.thirdSection .businessElement .joins{
+            width:100vw !important;
+           
+        }
+        .thirdSection .businessElement .joins{
+            text-align: center;
+margin-top: 450px;
+        }
+        .thirdSection .businessElement .business{
+            left:0;
+            margin-top: 30px;
+        }
+        .thirdSection{
+height:400px;
+width:100%;
+overflow:visible;
+background-position: left;
+        }
+        .thirdSection .businessElement{
+            flex-direction: column;
+            height:auto;
+            position: relative;
+        }
+        
+    .footerLeft form{
+        left:-3rem !important;
+    }
+    footer .footer{
+        flex-direction: column;
+    }
+    .footer .footerLeft{
+        width:100%;
+        padding-left:6rem;
+    }
+    .footer .footerLeft span:first-child{
+        width:100%;
+        height:10%;
+        
+    }
+    .footer form{
+        margin-top:6rem;
+        width:100%;
+    }
+    .footer .footerLeft span>form>input {
+        width:80vw;
+    }
+    .footer .footerRight{
+        width:100%;
+    }
+    .slider{
+        margin-bottom:1300px;
+    }
+}
+    @media screen and (max-width:768px) {
+       
+        .slider{
+            margin-bottom: 1700px;
+        }
+        .first{
+            width:100vw !important;
+        }
+        .thirdSection .businessElement .business,.thirdSection .businessElement .joins{
+padding-left:10px;
+text-align: center;
+        }
+        .plus .element{
+            height:auto;
+            width:100vw;
+            flex-direction: column;
+            text-align: center;
+            font-size: 25px;
+        }
+        .plus .element div div{
+font-size: 120x !important;
+        }
+        .plus .element{
+            height:auto;
+            text-align: center;
+        }
+        .plus .element font{
+            font-size: 20px !important;
+        }
+        .plus .element div:first-child{
+            height:auto;
+            width:100vw;
+            word-wrap: break-word;
+            text-align: center;
+            padding-left:5px;
+            padding-right:5px;
+        }
+.component1{
+    flex-direction: column;
+}
+        .first span font{
+            padding-left:0px !important;
+        }
+        .first div{
+            transform:translateX(50px) !important;
+            font-size:23px !important;
+            }
+          .component1 div:nth-child(even){
+            display:block;
+            width:100%;
+            left:0;
+        transform: translateY(-304px);
+    }
+    .component1 .capture{
+        height:60rem;
+        width:100vw;
+    }
+    .component1 .capture span{
+        transform: translateY(-5rem);
+    }
+    .component1 div:nth-child(even) img{
+        width:90%;
+    }
+    .slider{
+        position: relative;
+        top:-22rem;
+    }
+    .businessElement{
+        width:100vw;
+    }
+    .thirdSection .business {
+
+    }
+    .numbers{
+        flex-direction: column;
+        height:auto;
+        position: relative;
+        top:-10rem;  
+      }
+    .numbers span{
+        margin-top: 8rem;
+    }
+    .numbers .numbersSpan{
+        font-size: 9rem;
+    }
+    .numbers .small{
+        font-size: 35px !important;
+    }
+    .clever{
+        font-size: 5rem;
+    }
+    .sales{
+        height:auto;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+    }
+    .sales div{
+        border: none;
+        width: 100%;
+        height:35rem;
+        padding-bottom: 3rem;
+        margin-top: 7rem;
+        justify-content: space-around;
+        border-bottom: 2px solid black;
+    }
+    .sales div span{
+        text-align: center;
+font-size: 4rem;
+    }
+    .sales div button{
+height:6rem;
+font-size: 3rem;
+width:20rem;
+margin-top:0px;
+    }
+    .footer .footerData li{
+font-size: 14px !important;
+    }
+}
+    @media screen and (max-width:630px) {
+        .main .first div{
+            width:100vw;
+            padding-left:100px !important;
+            margin-left:12vw;
+        }
+        .main .first div  button{
+margin-left:30vw;
+        }
+        .footer .footerRight .footerComponent{
+            flex-direction: column;
+        }
+        .slider{
+            margin-bottom: 1964px;
+        }
+        .main .first span{
+            left:300px;
+        }
+        .business .plus{
+            word-wrap: normal;
+        }
+        .component1{
+            margin-bottom: 7rem;
+        }
+        .main{
+            height:750px;
+        }
+        .first div button{
+            margin-left: 10vw;
+        }
+        .footer .footerRight .footerComponent div{ 
+            width:100vw;
+            padding-left:4rem !important;
+            font-size: 3rem !important;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main .logo{
+        top:20px;
+        width:100%;
+        left:0px;
+    }
+    .main .logo img{
+        position: relative;
+        left:20vw;
+        width:80%;
+    }
+   .main .first{
+        left:-150px !important;
+width:100%;
+    }
+    .component1 .capture{
+        height:50rem;
+    }
+    .component1 div:nth-child(even) img{
+        width:65%;
+    }
+    .component1 div:nth-child(even){
+        width:90%;
+    }
+    .component1 div:nth-child(even){
+    transform: translateY(-150px);
+}
+    .component1 .capture span{
+        transform: translateY(-5rem);
+    }
+    .footerLeft span:first-child{
+        font-size:4rem;
+    }
+}
+@media screen and (max-width:585px) {
+
+    .slider{
+        margin-bottom: 2000px;
+    }
+}
+    @media screen and (max-width:515px) {
+        .footerRight .privacy{
+            display: none;
+        }
+        .main .first{
+            text-align: center;
+            left:-250px !important;
+    width:100%;
+        }
+        .first div{
+             font-size: 16px !important;
+        }
+        .first span{
+            left:275px !important;
+        }
+        .first span font{
+            padding-left:0px;
+            position: relative;
+        }
+       
+        .download{
+            padding-left:0px;
+            padding-right: 5px;
+        }
+        .footerRight>.footerComponent ul li,.footerRight>.footerComponent ul li,.footer .footerRight>.footerComponent ul li{
+            font-size:14px;
+        }
+       .capture span{
+        font-size:2.5rem;
+       } 
+       .download,.download span.cancel{
+        font-size:1rem;
+       }
+       .sales span{
+        font-size: 3rem !important;
+    }
+    .footer .footerLeft form{
+        font-size: 2rem;
+    }
+    .footer .footerLeft form input[type="submit"]{
+       font-size: 2rem !important; 
+       height:4rem;
+    }
+    .footerRight .footerComponent{
+        font-size: 1rem;
+    }
+    }
+    @media screen and (max-width:530px) {
+        slider{
+            margin-bottom: 3064px;
+        }
+    }
+    @media screen and (max-width:480px) {
+        .main .first div{
+            width:100vw;
+            padding-left:100px !important;
+            margin-left:14vw;
+        }
+        .main .first div  button{
+margin-left:15vw;
+        }
+        .slider{
+            margin-bottom: 2264px;
+        }
+        .first div{
+            padding-left: 0px !important;
+            left:12vw !important;
+        }
+        .main .logo{
+             transform: translateY(-50px);
+        }
+       .main .first span{
+            font-size:60px !important;
+        }
+        .component1 .capture{
+            height:35rem;
+        }
+        .main .first span{
+            left:241px !important;
+        }
+        .component1 div:last-child{
+           left:100px;
+        }
+    }
+    @media screen and (max-width:395px) {
+        .main .first div{
+            width:100vw;
+            padding-left:10px !important;
+            margin-left:40vw;
+        }
+        .main .first div  button{
+margin-left:15vw;
+        }
+
+        .slider{
+            margin-bottom: 2200px;
+        }
+    }

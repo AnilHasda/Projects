@@ -1,0 +1,125 @@
+@media(width<=1200px){
+    .digital-marketing-section{
+        width:100%;
+    }
+}
+@media(width<=1100px){
+    h1{
+        font-size:30px;
+        line-height:35px;
+    }
+}
+@media(width<=992px){
+    .banner{
+        justify-content: space-between;
+    }
+    .digital-marketing-section{
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    }
+}
+@media(width<=955px){
+    .digital-marketing-section>.group-image-section {
+        width:unset;
+    }
+}
+@media(width<=900px){
+    .banner{
+       flex-direction: column;
+       justify-content: center;
+       height:710px;
+    }
+    .banner .swiper {
+        width:50%;
+    }
+    .banner .swiper{
+        margin-bottom:40px;
+    }
+    .banner .banner-contact--section{
+margin-right:unset;
+.telephone{
+    top:65%;
+}
+    }
+}
+@media(width<=768px){
+    .top-nav{
+        flex-direction:column;
+        height:60px;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    .none{
+        display: block;
+    }
+    .swiper{
+        position: relative;
+    }
+    .show{
+        display: none;
+    }
+    .top-nav .navigation{
+        width:100vw !important;
+        padding:0px  10px;
+    }
+    .bottom-nav .main-navigation{
+        display: none;
+    }
+
+    .bottom-nav {
+        width:100%;
+        padding:0px 30px;
+    }
+    .bottom-nav .bottom-nav--hamburger{
+        display: block;
+        font-size: 20px;
+    }
+    .digital-marketing-section {
+width:100%;
+padding:initial 20px;
+    }
+}
+@media(width<=700px){
+    .project-components{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    } 
+}
+@media(width<=660px){
+    .banner .swiper{
+        width:80%;
+        margin: auto;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+@media(width<=450px){
+    .banner{
+        height:820px;
+    }
+    .banner .banner-contact--section .telephone{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .banner .banner-contact--section{
+        margin-top:80px;
+    }
+    .digital-marketing-section{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    }
+    .projects-section{
+        padding:50px 0px;
+    }
+}
+@media(width<=368px){
+    .banner{
+        height:920px;
+    }
+    .banner .banner-contact--section{
+        height:60%;
+    }
+    h1{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,310 @@
+@media  screen and (max-width:992px) {
+        html{
+            font-size: 45%;
+        }
+        .headExpense{
+            font-size:35px;
+        }
+        .sectionHeader .slide{
+            display: none;
+        }
+        nav ul{
+    display: none;
+        }
+        .mobileNav .iconChange{
+            font-size: 35px !important;
+            position:relative;
+            top:3px;
+        }
+        .components{
+            width:100vw;
+            overflow: hidden;
+            display: none;
+        }
+        .internalMobile{
+            display: grid;
+        }
+        .mobileNav{
+            display: block;
+            position:fixed;
+            color:#fff;
+            height:10vh;
+            padding-top:5px;
+
+        }
+    .mobileNav ul{
+        height:100%;
+    }
+    .internalMobile .mobileFirst{
+        padding-left: 20vw;
+        text-align: center;
+        }
+        .mobileMain{
+            display: flex;
+            flex-direction: column;
+            display: block;
+            
+        }
+        .mobileFirst section i{
+            font-size: 100px;
+            color: #c30c96;
+            padding-bottom:40px;
+            }
+            .internalMobile .section i{
+            font-size: 10rem;
+            color: #c30c96;
+            }
+        .download{
+            display: none;
+        }
+        .footer .footerLeft span>form{
+            left:-3rem;
+            right:3rem;
+        }
+    .element div:nth-child(even){
+        font-size: 13px !important;
+    }
+    .demoRight .demoRightSecond .financial{
+        font-size: 16px;
+    }
+    .footer .footerLeft form label{
+font-size:16px;
+    }
+}
+@media screen and (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+    nav ul{
+display: none;
+    }
+
+section .section{
+    height:500px;
+}
+section .section .section1,.section2{
+    font-size: 20px;
+    height: 500px;
+width:300px;
+}
+section .section .section1{
+    transform: translate(-18px, -26px);
+}
+section .section .section1 img{
+    width:25rem;
+}
+.section .section2{
+    transform: translateY(-100px);
+}
+
+.sectionHeader .slide{
+    display: none;
+}
+
+.section .section2 .topic{
+    font-size: 30px;
+    line-height:30px;
+}
+section .sectionHeader{
+    flex-direction: column;
+    text-align: center;
+}
+.thirdSection{
+    flex-direction: column;
+    padding-left:0px;
+    align-items: center;
+}
+.thirdSection .business{
+    width:100%;
+    margin:auto;
+    margin-top: 20px;
+}
+.demo{
+    margin-top:0px;
+}
+.demoLeft{
+    display: none;
+}
+.demo .demoRight{
+    height:auto;
+    width:100%;
+    padding-top:0px;
+}
+.demo .demoRight div{
+    font-size:25px;
+    padding-left:50px;
+    padding-top:80px;
+}
+.demo .demoRight div button{
+    margin-top:20px;
+    height:25px;
+    font-size:14px;
+}
+.demoRight .game-changer{
+    height:500px;
+}
+.demoRight .game-changer .firstFont{
+    font-size: 30px;
+    padding-bottom:20px;
+    
+}
+.demoRight .demoRightfont{
+    font-size:25px;
+}
+.demoRightSecond .financial{
+    line-height: -10px;
+    padding-top: 0px;
+}
+.demoRight .demoRightSecond{
+    padding-top:0px;
+}
+.demoRightFirst{
+    height: 265px;
+}
+.smart{
+    font-size:30px;
+}
+.footer{
+    flex-direction: column;
+}
+.footer .footerLeft{
+    width:100%;
+}
+.footerLeft form{
+    margin-top: 10rem;
+width: 100vw;
+padding-left: 10rem;
+}
+.footer>.footerRight{
+    width:100%;
+}
+.footer .footerRight>.banner{
+    width: 100%;
+}
+.footerLeft .footerLeftFont{
+    position: relative;
+}
+.footer .footerLeft span>form>input {
+    height: 20px;
+    width: 80vw !important;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+section .section .section1 img{
+    margin-left:12rem;
+}
+}
+@media  screen and (max-width:1148px) {
+.component{
+    width:100%;
+    overflow: hidden;
+}
+}
+@media  screen and (max-width:468px) {
+    html{
+        font-size: 35%;
+    }
+    .footer .footerComponent .footerData li{
+        font-size:2rem !important;
+    }
+    .section{
+        flex-direction: column;
+        justify-content: space-around;
+        height:900px;
+    }
+    .mobileNav{
+        height:10vh;
+
+    }
+    .mobileMain{
+        margin-bottom: 5rem;
+    }
+    section .section .section2{
+        width: 100%;
+        font-size :4rem;
+        padding-top:40px;
+    }
+    .section .section1{
+        height:20px;
+        width:100%;
+    }
+    .section .section1 img{
+        width:400px;
+    }
+    .thirdSection .business{
+        width:100%;
+    }
+    .thirdSection{
+        margin-top: -5rem;
+    }
+    .plus .element{
+        width:80vw;
+        position: relative;
+        left:-5rem;
+    }
+    .demo{
+        flex-direction: column;
+    }
+    .demoLeft{
+        display: block;
+        width:100%;
+    }
+.demoRight .demoRightSecond{
+        padding-bottom:50px;
+        height:430px;
+        margin-bottom: 50px;
+
+    }
+    .footerLeft form{
+    padding-left:40px;
+
+    }
+    .footerRight .footerComponent{
+        flex-direction: column;
+
+    }
+    .footer .footerRight .privacy div:nth-child(even){
+display: none;
+    }
+    .footer .footerRight .privacy{
+        height:auto;
+        width:100vw;
+padding:0px;
+        font-size:10px;
+        position:relative;
+        top:-20px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    .footerRight .footerComponent div{
+        width:100%;
+        padding-left: 2rem;
+    }
+    .plus .element div:nth-child(even){
+        display: flex;
+        position:relative;
+        top:5px;
+        width:200px !important;
+    }
+    .plus .element div:first-child{
+        max-width: 63% !important;
+}
+.plus .element div:nth-child(even) i{
+    top:-6px;
+}
+.footerComponent{
+    padding-left: 30px;
+}
+.footerComponent div #footerData li,.footerComponent div li,.footerComponent div:last-child li{
+    font-size: 14px !important;
+}
+}
+@media screen and (max-width:1200px){
+    .components{
+        width:100vw;
+    }
+}

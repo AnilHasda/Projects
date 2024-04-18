@@ -1,0 +1,219 @@
+.hero-section {
+  height: auto;
+  width: 100%;
+
+  .swiper {
+    width: auto;
+    height: 650px;
+
+    .swiper-pagination-bullet-active {
+      background-color: #000 !important;
+
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      position:absolute;
+      height:30px;
+      width:30px;
+      opacity:1;
+      transition:all .3s linear;
+      z-index:99;
+      top:70%;
+    }
+/* .circle{
+  position:absolute;
+  font-size:16px;
+  top:98%;
+} */
+    .swiper-button-next {
+      left: 80%;
+      }
+
+    .swiper-button-prev {
+      left: 20%;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+      transition: all .5s linear;
+      color: #000;
+      font-size: 16px;
+    }
+    .swiper-pagination-bullet {
+      background-color: #fff;
+      height: 13px;
+      width: 13px;
+      opacity: 1;
+      border: 2px solid;
+      margin-left: 25px;
+      transform:translateY(5px);
+    }
+  }
+
+  .swiper-wrapper {
+    height: 600px;
+    width: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-size: cover;
+    background-position: 100% 0%;
+    display: flex;
+    align-items: center;
+  }
+.slide1{
+  background-image: url("../assets/images/banner1.avif");
+}
+  .slide2{
+    background-image:url("../assets/images/banner2.avif");
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/*second swiper starts from here*/
+.second-slider {
+  .second-swiper{
+    height:650px;
+    width:100%;
+    .swiper-button-next,
+    .swiper-button-prev {
+      position:absolute;
+      height:30px;
+      width:30px;
+      top: 70%;
+      opacity:1;
+      transition:all .3s linear;
+      z-index:99;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: #000 !important;
+
+    }
+/* .circle{
+  position:absolute;
+  font-size:16px;
+  top:98%;
+} */
+    .swiper-button-next {
+      left: 80%;
+     
+      }
+
+    .swiper-button-prev {
+      left: 20%;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+      transition: all .5s linear;
+      color: #000;
+      font-size: 16px;
+    }
+    .swiper-pagination-bullet {
+      background-color: #fff;
+      height: 13px;
+      width: 13px;
+      opacity: 1;
+      border: 2px solid;
+      margin-left: 25px;
+      transform:translateY(7px);
+    }
+  }
+  }
+  .swiper-wrapper{
+    width: 100%;
+    height: 600px;
+  }
+
+  & .slide1{
+    background-image: url("../assets/images/volleyball.avif");
+  }
+
+  & .slide2{
+    background-image: url("../assets/images/women.avif");
+  }
+/*second swiper end here*/
+a {
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+a:hover {
+  background-color: #03508f;
+}
+
+.second-section a:hover,
+footer a:hover {
+  background-color: initial;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-size: 12px;
+}
+
+.footer-last--left {
+  width: 470px;
+  height: auto;
+  margin-left: 80px;
+
+  & i {
+    color: #737373;
+  }
+
+  & a {
+    font-size: 12px;
+    color: #737373;
+  }
+}
+
+.footer-last--right {
+  height: auto;
+  width: 55%;
+  margin-bottom: 20px;
+
+  & a {
+    font-size: 12px;
+    color: #737373;
+  }
+}
+
+footer .privacy-choice--section i {
+  color: #fff;
+  font-size: 10px;
+}
+
+footer .privacy-choice--section .check {
+  color: blue;
+}
+
+footer .privacy-choice--section .blue {
+  transform: skewX(-15deg);
+
+  & i {
+    transform: skewX(15deg);
+    position: relative;
+    left: 4px;
+    top: -2px;
+  }
+}
+
+nav .link a {
+  transition: all .3s linear;
+}
+
+nav .link a:hover {
+  background-color: transparent;
+  border-bottom: 1px solid;
+}

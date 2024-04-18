@@ -1,0 +1,751 @@
+
+@font-face {
+    font-family: Nexa;
+    src: url("nexaRegular.otf");
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Nexa;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    padding-top:4rem;
+}
+:root{
+    --primary:#c30c96;
+}
+.main{
+    background-color:#1e0833;
+    color:#fff;
+}
+.me{
+    color:var(--primary);
+}
+.mobileNav{
+    
+}
+.icon{
+    transition:all 1s linear;
+}
+.secondMain{
+     height:100%;
+     width:100%;
+     background:#1e0833;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*html tooltips*/
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    height: 20px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.container {
+    height: auto;
+    width: 100%;
+    overflow:hidden;
+}
+
+.headExpense:hover {
+    color: #fff;
+}
+
+.headExpense {
+    font-family: Nexa;
+    font-size: 2rem;
+}
+
+.expense {
+    overflow: hidden;
+}
+
+.hidden {
+    height: 400px;
+    width: 100%;
+    background: rgb(26, 8, 51);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    z-index: 4;
+    top:-500px;
+    transition: all 1s linear;
+}
+
+.hiddenLeft {
+    margin-top: 7.5rem;
+
+}
+
+.hiddenLeft li {
+    font-size: 2.5rem;
+}
+
+.hidden>.hiddenRight {
+    height: 200px;
+    width: 15%;
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+    justify-content: space-between;
+    border-left: 1px solid rgb(141, 137, 137);
+}
+
+.hidden .hiddenRight ul li {
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+.hidden>.hiddenRight>.demo:hover {
+    background-color: #fff;
+    border-bottom: 2px solid;
+    color: #000;
+}
+
+nav,.mobileNav{
+    height: 4rem;
+    width: 100vw;
+    background: #1e0833;
+    padding: 0px;
+    color: #fff;
+    position: fixed;
+    display: grid;
+    place-items: center;
+    top: 0;
+    z-index: 7;
+    box-sizing: border-box;
+}
+.mobileNav{
+    padding:0px 3rem;
+}
+nav ul,.mobileNav ul {
+    height: 40px;
+    width: 43vw;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform:translateY(-1rem);
+    font-size: 20px;
+    margin:auto;
+}
+
+.mobileNav{
+    display: none;
+}
+.mobileNav ul{
+    transform:translateY(-2rem);
+width:100%;
+}
+.mobileNav ul li i{
+    color:#fff;
+    } 
+nav ul li a:first-child,.mobileNav ul li a:first-child {
+    font-size: 2rem;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #c30c96;
+}
+
+nav ul li>a {
+    font-style: normal;
+    font-family: Nexa;
+}
+nav ul {
+    height: 40px;
+    width: 43%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform:translateY(-10px);
+    font-size: 20px;
+}
+
+nav ul li a:first-child {
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #c30c96;
+}
+
+nav ul li>a {
+    font-style: normal;
+    font-family: Nexa;
+}
+.mover{
+    height:100vh;
+    width: 100%;
+    background-color: #1e0833;
+    position:fixed;
+    left:-100%;
+    transition:all .5s linear;
+    z-index: 6;
+    padding-top: 60px;
+}
+.mover>.moverFirst{
+    height:40%;
+    width:100%;
+}
+.slideMe{
+    display: block;
+    left:0px;
+}
+.download {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background:;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 13rem;
+    padding-right: 4rem;
+    z-index: 6;
+}
+.download i{
+    color:#000;
+}
+section .section{
+    height:730px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+section .section .section1,.section2{
+    font-size: 5.8rem;
+    height: 550px;
+width:500px;
+}
+section .section .section1{
+    margin:10rem 5rem 0px 8rem;
+}
+.section1 img{
+    margin-top:5rem;
+    width:80%;
+}
+section .section .section2{
+    display:grid;
+    place-items:center;
+    margin-right:13rem;
+    margin-top: 8rem;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    color:var(--primary);
+
+}
+section .second{
+    height:900px;
+    width:100%;
+    background-color: hsl(33, 19%, 91%);
+color:#000;
+}
+section .sectionHeader{
+display: flex;
+width:100%;
+padding:10rem 13rem 2rem 13rem;
+align-items: center;
+justify-content: space-between;
+}
+.sectionHeader .getClever{
+    font-size:4rem;
+}
+.sectionHeader .slide{
+    display:flex;
+    justify-content:space-between;
+    color: #c30c96;
+    width:250px;
+    margin-top:4.5rem;
+    font-size:1.4rem;
+    border-bottom:1px solid silver;
+    cursor: pointer;
+}
+.slide #usability{
+    margin-right:1.5rem;
+    border-bottom:1px solid #000;
+}
+.internalMobile{
+    height: auto;
+    width:100%;
+}
+.internalMobile .mobileFirst{
+    width:auto;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    overflow-x:scroll;
+}
+.internalMobile .mobileUsability{
+font-size: 3rem;
+padding-bottom:4rem;
+box-sizing: border-box;
+}
+#hiddenComponents{
+
+}
+.components{
+    height:auto;
+    width:1150px;
+    margin-left:opx;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 40px;
+    column-gap: 25px;
+    margin:auto;
+    padding: 60px 0px;
+    padding-left: 70px;
+    overflow: hidden;
+}
+.hiddenSlider{
+    
+}
+.mobileMain{
+    display: none;
+    min-height:650px;
+    width:100%;
+    z-index: 6;
+}
+.components .component,.mobileFirst section{
+    background-color:#ffffeb;
+    height:200px;
+    width:320px;
+    font-size:2rem;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobileFirst section{
+    background-color: transparent;
+    height:100%;
+    width:40rem;
+    margin-right:30vw;
+    border-radius: 1rem;
+border:.4rem solid #c30c96;
+}
+.internalMobile{
+    display: none;
+}
+.components .component i,.mobileFirst section i{
+font-size: 6rem;
+color: #c30c96;
+padding-bottom:40px;
+}
+.components .component i{
+font-size: 6rem;
+color: #c30c96;
+padding-bottom:4rem;
+}
+i{
+    color: #c30c96;
+}
+.hiddenSlider{
+    display:none;
+}
+
+#section2{
+    transform:translateY(-10rem);
+}
+
+.thirdSection{
+    height:auto;
+    width:100%;
+    color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-bottom: 3rem;
+    clear: both;
+}
+.thirdSection .business{
+    min-height:650px;
+    width:600px;
+    border-radius: 1rem;
+    background:#1e0833;
+    padding:0px 60px;
+    padding-top:70px;
+}
+.thirdSection .business .showData{
+    display: block;
+    height:20px;
+    width:auto;
+   overflow:hidden;
+   transition:all .1s linear;
+}
+.business .child{
+    padding:25px 0px 20px 30px;
+    line-height: 20px;
+}
+.thirdSection .business .expand{
+    height:150px; 
+}
+.business .active{
+    display:block;
+    padding:25px 0px 20px 30px;
+    line-height: 20px;
+    color:rgb(255,255,235); 
+
+}
+.plus{
+    margin-top: 55px;
+}
+.plus .element{
+    min-height:50px;
+    width:100%;
+    margin-top: 30px;
+    border-bottom:2px solid var(--primary);
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.plus .element .showData{
+    cursor:pointer;
+    transition:all 1s linear;
+}
+.plus i{
+    font-size:18px;
+}
+.plus .element div:nth-child(even){
+    font-size:1.2rem;
+   
+}
+.plus .element div:nth-child(even) i{
+    font-size:25px;
+    color:#fff;
+    position:relative;
+    top:5px;
+}
+.plus .lastElement{
+    background-color: blue;
+}
+/*remaining parts*/
+.demo{
+    min-height:80rem;
+    width:100%;
+    display:flex;
+margin-top: 15rem;
+    overflow: hidden;
+    }
+    .demoLeft{
+    height:inherit;
+    width:40%;
+    }
+    .demo .demoRight{
+    height:inherit;
+    width:60%;
+    }
+    .demoRight .demoRightFirst{
+        min-height:40%;
+        width:100%;
+        border-bottom:2px solid black;
+        padding:4rem 0px 0px 10rem;
+        font-size:4rem;
+    }
+    .demoRight .demoRightSecond{
+        padding:10rem 0px 0px 10rem;
+        min-height:60%;
+        background:#1e0833;
+        color:#fff;
+    }
+    .demoRight .demoRightfont{
+        font-size:4rem;
+    }
+    .demoRightSecond .financial{
+        font-size:1.6rem;
+        padding-top:3rem;
+    }
+    .smart{
+    height:35rem;
+    width:100%;
+    display:grid;
+    place-items:center;
+    text-align:center;
+    background:#1e0833;
+    color:#fff;
+    font-size:4.5rem;
+    }
+    
+    .footer {
+        position:relative;
+        height:auto;
+        width: 210%;
+        display: flex;
+        color: #fff;
+    }
+    
+    
+    
+    
+    .footer .footerLeft {
+        flex-grow: 1;
+        position:relative;
+        height: 100%;
+        width: 300px;
+        background: #1e0833;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footerLeft .footerLeftFont{
+
+    }
+    
+    .footer .footerLeft span>form>input {
+        height: 40px;
+        width: 200px;
+        width:32vw !important;
+        background: none;
+        outline: none;
+        border: none;
+        color: #fff;
+        border-bottom: 1px solid gray;
+    }
+    
+    .footer .footerLeft span>form>input::placeholder {
+        color: #f1f1f1;
+        position:relative;
+        left:-6rem;
+    }
+    
+    .footer .footerLeft span>form>.submit {
+        border: none;
+        width: 100px;
+        background: #941079;
+        margin: 30px 0px;
+    }
+    
+    .footer>.footerRight {
+        height: 100%;
+        width: 420px;
+        background: ;
+    }
+    .demoRight .demoRightSecond{
+        padding:100px 0px 0px 100px;
+        height:60%;
+        background:#1e0833;
+        color:#fff;
+    }
+    .footer .footerRight>.banner {
+        height:100px;
+        width: 100%;
+    }
+    
+    ul {
+        list-style: none;
+        margin-top: 0px;
+    }
+    
+    ul>li {
+        padding-top: 0px;
+    }
+    
+    .footer .footerRight>.footerComponent {
+        color: #1e0833;
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        justify-content: space-around;
+    }
+    
+    .privacy {
+        height: 100px;
+        width: 80%;
+        font-family: Nexa;
+        padding-top: 0px;
+        font-size: 0.9rem;
+        margin: 120px 0px 10px 0px;
+        padding-right:5vw;
+        color: rgb(130, 130, 130);
+        display: flex;
+        padding-left: 10vw;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+    
+    
+    
+    .footer {
+        height: auto;
+        width: 100%;
+        display: flex;
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    
+    .footer .footerLeft {
+        height:inherit;
+        width:40%;
+        background: #1e0833;
+        display: flex;
+        padding-top: 3%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footerLeft .footerLeftFont{
+        font-size:4.5rem;
+        text-align: center;
+    }
+    
+    .footer .footerLeft span>form>input {
+        height: 20px;
+        width: 250px;
+        outline: none;
+        border: none;
+        color: #fff;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .footer .footerLeft span>form>input:focus {
+        border-color: #941079;
+    }
+    
+    .footer .footerLeft span>form>input::placeholder {
+        color: #f1f1f1;
+    }
+    
+    .footer .footerLeft span>form>.submit {
+        border: none;
+        width: 100px;
+        height: 40px;
+        background: #c30c96;
+        margin: 30px 0px;
+    }
+    
+    .footer>.footerRight {
+        height: 100%;
+        width:60%;
+        background:;
+        overflow: hidden;
+    }
+    
+    .footer .footerRight>.banner {
+        height: auto;
+        width: 100%;
+    }
+    .footer .footerRight>.banner img{
+        width:100%;
+    }
+    ul {
+        list-style: none;
+        margin-top: 0px;
+    }
+    
+    ul>li {
+        padding-top: 20px;
+        font-size: 1.8rem;
+    }
+    
+    .footer .footerRight>.footerComponent {
+        color: #1e0833;
+        display: flex;
+        align-items: center;
+        width:100%;
+        justify-content: space-around;
+    }
+    
+    .footer .footerRight>.footerComponent ul li {
+        font-size: 1.4rem;
+    }
+    
+    .privacy {
+        height: 100px;
+        width: 100%;
+        font-family: Nexa;
+        padding-top: 0px;
+        font-size: 0.9rem;
+        margin: 120px 0px 10px 0px;
+        padding-right:7%;
+        color: rgb(130, 130, 130);
+        display: flex;
+        padding-left: 80px;
+        justify-content: space-between;
+    }
+    
+    #bottomDemo:hover {
+        background-color: red;
+    }
+    
+    #footerData {
+        font-family: Nexa;
+    }
+    
+    @media screen and (max-width:600px) {
+        header nav ul {
+            display: none;
+        }
+    
+        header nav {
+            width: 100vh;
+            height: 5vh;
+        }
+    
+        .download {
+            padding: 40px intial;
+        }
+    
+        .main {
+            flex-direction: column;
+        }
+    
+        .main .logo {
+            top: 0px;
+        }
+    
+        .main .logo img {
+            width: 400px;
+        }
+    
+        .main .first {
+            transform: translateX(0px);
+        }
+    }

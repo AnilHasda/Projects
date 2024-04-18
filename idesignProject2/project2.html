@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hidden" onmouseleave="hide()">
+            <div class="hiddenLeft">
+                <ul style="font-size: 35px;">
+                    <li> Feature</li>
+                    <li>By Sizes</li>
+                    <li>By Industries</li>
+                </ul>
+            </div>
+            <div class="hiddenRight">
+                <ul>
+                    <li style="padding-top: 0px;">About</li>
+                    <li>Contact</li>
+                    <li>End users</li>
+                    <li>Previously proMaster</li>
+                </ul>
+                <button class="demo"
+                    style="height:35px;transform:translateX(-10px);width:120px;border:none;background:rgba(192, 7, 146, 0.816);color:#fff;">Book
+                    a demo</button>
+            </div>
+        </div>
+        <header>
+            <nav>
+                <ul>
+                    <li class="headExpense" style="font-size:20px;">expense<font
+                            style="color:rgba(197, 32, 156, 0.884);">me</font>
+                    </li>
+                    <li class="tooltip"><a href="#"onmouseenter="display()">Solutions</a>
+                        <span class="tooltiptext">Solutions</span>
+                    </li>
+                    <li class="tooltip"><a href="#"onmouseenter="display()">Stories</a>
+                        <span class="tooltiptext">Stories</span>
+                    </li>
+                    <li class="tooltip"><a href="#"onmouseenter="display()">Support</a>
+                        <span class="tooltiptext">Support</span>
+                    </li>
+                    <li class="tooltip"><a href="#"onmouseenter="display()">Partners</a>
+                        <span class="tooltiptext">Partners</span>
+                    </li>
+                    <li class="tooltip"><a href="#"onmouseenter="display()">Book a demo</a>
+                        <span class="tooltiptext">BookDemo</span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+<!---for small device navigation-->
+<div class="mobileNav">
+    <ul>
+        <li class="headExpense">expense<font style="color:rgba(197, 32, 156, 0.884);">me
+        </font></li>
+        <li><font class="iconChange"onClick="slideLeft();"><i class="bi bi-list"></i></font></li>
+    </ul>
+</header>
+<div class="mover">
+    <div class="moverComponent">
+        hello
+    </div>
+</div>
+</div>
+        <div class="download">
+            <span style="transform: translateY(-5px);">
+                <font>Looking to download & seeking support for the employee app?</font>
+                <font>Learn more</font><i class="bi bi-arrow-right-short"
+                    style="padding-left:7px;font-size:25px;position: relative;top:5px;"></i>
+            </span>
+            <span style="transform: translateY(-5px);">
+                <font>ExpensiveMe was previously ProMaster.</font>
+                <font>Learn more<i class="bi bi-arrow-right-short"
+                        style="padding-left:7px;font-size: 25px;position: relative;top:5px;"></i></font>
+            </span>
+            <font class="cancel"><b><i class="bi bi-x-lg" style="font-size:16px;font-weight:bold;"></i></b></font>
+        </div>
+        <div class="main">
+            <div class="logo"><img src="logo.jpg" alt="logo" width="100%"></div>
+            <div class="first"><span
+                    style="font-size:140px;line-height: 120px;">Smart<br>
+                    <font style="padding-left:100px;">expensing</font>
+                </span>
+                <div style="font-size: 25px;transform: translateX(100px);position:relative;top:-20px;">The end-to-end
+                    expense management <br>solution built for clever organizations<br><button
+                        style="background:#000;border:none;color:#fff;margin-top:30px;height:30px;width:120px;font-size: 16px;">Get
+                        Smart</button></div>
+
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="expense">
+                <font>expense</font>
+                <font style="color:#c30c96;">me</font>
+            </div>
+        </div>
+
+        <div class="component component1">
+            <div class="capture"><span style="color:#fff;">Capture and approve on<br> the go-with <font
+                        style="color:rgb(194, 0, 150);">total visibility</font><br>and easy reconcillation</span></div>
+            <div><img src="womenMobile.png" alt="mobileImage"></div>
+        </div>
+        <!--
+        <div class="component component2" style="margin:0px;">
+            <div
+                style="height:400px;font-size: 30px;display: flex;align-items: center;justify-content: center;color:#1e0833">
+                <span>
+                    <p>Joins organization who <br>have <font style="color:#c30c96;">brightened up</font> their<br>
+                        expense
+                        abilities
+                    </p>
+                    <p style="padding:10px 0px;font-size:18px;">"The matching receipts to spend is almost<br> magic-when
+                        we
+                        love
+                        the time we're saving".</p>
+                    <p><b>Finanace Officer</b><br>Educational Institution</p><br>
+                    <button class="seeMoreBtn" style="background:#941079;">See more</button>
+                </span>
+            </div>
+            <div></div>
+        </div>
+    </div>
+-->
+    <section class="slider">
+        <div class="thirdSection">
+            <div class="businessElement">
+            <div class="business" style="order:2;">
+                <span style="font-size: 35px;position: relative;left:5px;top:-20px">
+                    <font style="color: #c30c96;">Clever tech </font>features with <br>beautiful <font
+                        style="color: #c30c96;">user experience.</font>
+                </span>
+                <div class="plus" style="padding-left:10px;">
+                    <div class="element">
+                        <div>Card Integration<br>
+                            <font style="font-size: 14px;color:
+                            rgb(255, 255, 235);">Complete receipt storage, secure in the cloud, for
+                                up to 7 years</font>
+                        </div>
+                        <div style="font-size:12px;transform:translateY(20px)">See more<i
+                                class="bi bi-arrow-right-short" style="padding-left:7px;font-size:20px;"></i></div>
+                    </div>
+                    <div class="element">
+                        <div>Default finance codes<br>
+                            <font style="font-size: 14px;color: 
+                            rgb(255, 255, 235);">Ability to pre-code transactions based on
+                                merchant and user</font>
+                        </div>
+                        <div style="font-size:12px;transform:translateY(20px)">See more<i
+                                class="bi bi-arrow-right-short" style="padding-left:7px"></i></div>
+                    </div>
+                    <div class="element">
+                        <div>Create expense claims<br>
+                            <font style="font-size: 14px;color:
+                            rgb(255, 255, 235);">Easy creation of expense claims on the fly, from
+                                mobile app or web app</font>
+                        </div>
+                        <div style="font-size:12px;transform:translateY(20px)">See more<i
+                                class="bi bi-arrow-right-short" style="padding-left:7px"></i></div>
+                    </div>
+                    <div class="element">
+                        <div>Online receipts<br>
+                            <font style="font-size: 14px;color:
+                            rgb(255, 255, 235);"> transactioFully configurable dashboard reporting
+                                suite with custom widgetsns</font>
+                        </div>
+                        <div style="font-size:12px;transform:translateY(20px)">See more<i
+                                class="bi bi-arrow-right-short" style="padding-left:7px"></i></div>
+                    </div>
+                    <div class="element">
+                        <div>Reporting<br>
+                            <font style="font-size: 14px;color:
+                            rgb(255, 255, 235);">Fully configurable dashboard reporting suite with
+                                custom widgets</font>
+                        </div>
+                        <div style="font-size:12px;transform:translateY(20px)">See more<i
+                                class="bi bi-arrow-right-short" style="padding-left:7px"></i></div>
+                    </div>
+                    <button
+                        style="border: none;height:40px;width:150px;background-color: #c30c96;color:rgb(255, 255, 235);margin-top:30px;">See
+                        all features</button>
+                </div>
+
+                </span>
+            </div>
+            <div class="joins">
+                <span>
+                    <p style="font-size:45px;">Joins organization who <br>have <font style="color:#c30c96;">brightened up</font> their<br>
+                        expense
+                        abilities
+                    </p>
+                    <p style="padding:10px 0px;font-size:25px;line-height:40px;padding-top:40px;">"The matching receipts to spend is almost<br> magic-when
+                        we
+                        love
+                        the time we're saving".</p>
+                    <p style="font-size:18px;padding-top:30px;"><b>Finanace Officer</b><br>Educational Institution</p><br>
+                    <button class="seeMoreBtn" style="background:rgb(26, 8, 51);margin-top:20px;color:#fff;height:35px;width:80px;font-size:16px;">See more</button>
+                </span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="numbers">
+        <span>
+            <font class="numbersSpan experience">30</font><br>
+            <font class="small">Year's experience</font>
+        </span>
+        <span>
+            <font class="numbersSpan annual">98%</font><br>
+            <font class="small">Client retention</font>
+        </span>
+        <span>
+            <font class="numbersSpan users">200k</font><br>
+            <font class="small">End-users per month</font>
+        </span>
+        <span>
+            <font class="numbersSpan finished">100%</font><br>
+            <font class="small">Australian-developed</font>
+        </span>
+    </div>
+
+    <div class="clever">
+        <span>Your <font>clever business wins</font><br>never felt so good
+    </div>
+
+    <div class="sales">
+        <div><span>Get started <br>right away.</span><button>Talk to Sales</button></div>
+        <div><span>Clever solutions.<br>savvy support.</span><button>Learn More</button></div>
+        <div style="border:none;"><span>Smart partners,<br>bright futures.</span><button>Learn More</button></div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footerLeft">
+                <span>
+                    <font style="color:#b11191;">Talk with our sales<br> team to scope <br>your </font>smart
+                    <br>expensing
+                    moves <br>
+                    <font style="color:#b11191;">today.</font>
+                </span>
+                <span>
+                    <form>
+                        <label for="fname" style="position:relative;top:-10px;">First Name*</label><br>
+                        <input type="text" id="fname"><br>
+                        <label for="lname" style="position:relative;top:-10px;">Last Name*</label><br>
+                        <input type="text" id="lname"><br>
+                        <label for="phone" style="position:relative;top:-10px;">Phone number*</label><br>
+                        <input type="text" id="phone"><br>
+                        <label for="email" style="position:relative;top:-10px;">Email*</label><br>
+                        <input type="text" id="email"><br>
+                        <label for="message" style="position:relative;top:-10px;">Message</label><br>
+                        <input type="text" id='message'><br>
+                        <input type="submit" value="Send" class="submit" onclick="preventt();">
+                    </form>
+                </span>
+            </div>
+            <div class="footerRight">
+                <div class="banner"><img src="footerBnner.webp" alt="footerBanner" width="100%" height="100%"></div>
+                <div class="footerComponent">
+                    <div>
+                        <ul id="footerData">
+                            <li style="font-family:Nexa;font-size: 12px;">Usability</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Smart Receipts</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Default Codes</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Card Integrations</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Expense Claims</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li style="font-family:Nexa;font-size: 12px;">Internal Control</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Multi-Currency</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Budget Controls</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Accounting Integration</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Secure data storage</li>
+                        </ul>
+                    </div>
+                    <div style="border-left:1px solid #dadadada;padding-left:10px;transform:translateY(50px);">
+                        <ul>
+                            <li style="font-family:Nexa;font-size: 12px;padding:0">Solutions</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Stories</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Support</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Partner</li>
+                            <li style="font-family:Nexa;font-size: 12px;">About</li>
+                            <li style="font-family:Nexa;font-size: 12px;">Resources</li>
+                            <li style="font-family:Nexa;font-size: 12px;"><button id="bottomDemo"
+                                    style="background:#1e0833;border:none;height:35px;color:#fff;font-size:12px;width:110px;">Book
+                                    a demo</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="privacy">
+                    <div style="height:50%;width:70%;transform:translateX(-10px);padding-top:40px;">
+                        <font>© 2023 Inlogik Pty Ltd. ABN 35 058 997 121. ISO 27001 & 27701, PCI-DSS & Soc 2 Type 2 certified.<br>
+                            <a href=""style='color:
+                            rgb(130, 130, 130)'>Privacy Policy</a>. <a href=""style='color:
+                            rgb(130, 130, 130)'>vironmeEnntal & Social Policy</a>.crafted by Hunt
+                            & Howk.
+                        </font>
+                    </div>
+                    <div onclick="goTop();"
+                        style="color:#1e0833;cursor:pointer;margin-bottom:20px;padding-left:15px;padding-top:5px;">
+                       
+                            <i class="bi bi-arrow-up" style="font-size:30px;padding-left:20px;"></i><br> <font style="font-family:Nexa;font-size:16px;">Go to top
+                        </font>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
